@@ -15,6 +15,7 @@ Very cool snippets that help out a ton with coding Discord Bots, C# Programs, HT
 #### Discord
 
 discord.ezbot | Generates a new discord bot using the NPMDiscordBots package.
+nodejs.server | Generates a new HTTP Server with NodeJS.
 
 ### C# (CSharp)
 
