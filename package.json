@@ -6,7 +6,7 @@
     "publisher": "GavinGoGaming",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/gavingogamingDev/snippetsplus-vscode.git"
     },
     "engines": {
         "vscode": "^1.59.0"
