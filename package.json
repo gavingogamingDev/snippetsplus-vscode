@@ -2,7 +2,7 @@
     "name": "snippets-plus",
     "displayName": "Snippets+",
     "description": "A VSCode extention to help with coding!",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "GavinGoGaming",
     "repository": {
         "type": "git",
