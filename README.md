@@ -6,7 +6,7 @@
 
 Very cool snippets that help out a ton with coding Discord Bots, C# Programs, HTML Websites, and more!
 
-\!\[Discord Snippet\]\(images/discord-snip.png\)
+![Discord Snippet](images/discord-snip.png)
 
 ## Snippet List
 
