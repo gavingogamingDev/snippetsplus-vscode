@@ -12,22 +12,18 @@ Very cool snippets that help out a ton with coding Discord Bots, C# Programs, HT
 
 ### JavaScript
 
-#### Discord
-
-discord.ezbot | Generates a new discord bot using the NPMDiscordBots package.
-nodejs.server | Generates a new HTTP Server with NodeJS.
+###### discord.ezbot | Generates a new discord bot using the NPMDiscordBots package.
+###### nodejs.server | Generates a new HTTP Server with NodeJS.
+###### discord.bot | Generates a new discord bot with command folder support.
+###### discord.richpresence | Generates a script that gives you a rich presence on discord when run.
 
 ### C# (CSharp)
 
-#### Templates
-
-cs.class | Generates a new HTML Namespace, Class, and Main(args) function.
+###### cs.class | Generates a new HTML Namespace, Class, and Main(args) function.
 
 ### HTML
 
-#### Templates
-
-html.navbardoc | Generates a new HTML File with a basic navbar.
+###### html.navbardoc | Generates a new HTML File with a basic navbar.
 
 ## Known Issues
 
