@@ -53,9 +53,58 @@
             "client.on('ready', () => {",
             "    const colors = require('colors');",
             "    console.log(colors.green('Logged in as') + ' ' + client.user.username + ' (' + client.user.id + ')');",
-            "});"
+            "});",
+            "",
+            "client.login(\"YourTokenHere\");"
         ],
         "description": "Basic Discord Bot"
+    },
+
+    // Discord Rich Pressence
+    "Discord Rich Presence NodeJS": {
+        "prefix": "discord.richpresence",
+        "body": [
+            "const appId = 'YOUR_APP_ID';",
+            "const RPC = require('discord-rpc');",
+            "const client = new RPC.Client({transport: 'ipc'});",
+            "",
+            "client.on('ready', () => {",
+            "    console.log('Logged in as', client.user.username);",
+            "    update();",
+            "    client.login({clientId: appId}).catch(console.error);",
+            "});",
+            "",
+            "const update = () => {",
+            "    client.setActivity({",
+            "        // Line 1 of text",
+            "        details: `Snippets+ for VSCode`,",
+            "        // Line 2 of text",
+            "        state: 'made by GavinGoGaming',",
+            "        // Large Image KEY and TEXT",
+            "        largeImageKey: 'img_large',",
+            "        largeImageText: 'Lorge Imag',",
+            "        // Small Image KEY and TEXT",
+            "        smallImageKey: 'img_small',",
+            "        smallImageText: 'Smol Imag',",
+            "",
+            "        instance: false,",
+            "        // Buttons",
+            "        buttons: [",
+            "            // Button 1",
+            "            {",
+            "                label: 'Snippets+',",
+            "                url: 'https://marketplace.visualstudio.com/items?itemName=GavinGoGaming.snippets-plus'",
+            "            },",
+            "            // Button 2",
+            "            {",
+            "                label: 'Discord',",
+            "                url: 'https://discord.com/'",
+            "            }",
+            "        ], ",
+            "    });",
+            "}"
+        ],
+        "description": "Discord Rich Presence"
     },
     
     // NodeJS Server
