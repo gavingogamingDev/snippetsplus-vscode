@@ -2,11 +2,9 @@
 
 
 
-## Features
+## Description
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
+Very cool snippets that help out a ton with coding Discord Bots, C# Programs, HTML Websites, and more!
 
 \!\[Discord Snippet\]\(images/discord-snip.png\)
 
