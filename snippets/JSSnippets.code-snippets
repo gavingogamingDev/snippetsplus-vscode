@@ -1,0 +1,25 @@
+{
+    "Easy Discord Bot NodeJS":{
+        "prefix": "discord.ezbot",
+        "body": [
+            "// Make an instance of the Discord Bot by requiring the \"npmdiscordbots\" package",
+            "const bot = require('npmdiscordbots');",
+            "",
+            "// Create a new command called \"hello\"",
+            "bot.addCommand(new bot.Command(\"hello\", (message, args, client) => {",
+            "    message.reply(\"Hello!\");",
+            "}));",
+            "",
+            "// Set the custom status of the bot",
+            "bot.setCustomStatus(\"to music. I am a robot!\", bot.StatusType.LISTENING);",
+            "",
+            "// Add the token as a variable.",
+            "const token = \"YOUR_TOKEN_HERE\";",
+            "",
+            "// Start the bot with a token, and a prefix to use.",
+            "// The prefix will be added before the command name of commands.",
+            "bot.launch(token, '!');"
+        ],
+        "description": "A Simple bot using NPMDiscordBots."
+    }
+}

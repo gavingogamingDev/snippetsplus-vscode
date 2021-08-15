@@ -1,0 +1,18 @@
+{
+    "New CS Class":{
+        "prefix": "cs.class",
+        "body": [
+            "namespace MyNamespace {",
+            "   public class MyClass {",
+            "       public void main(string[] args){",
+            "           ",
+            "           Console.WriteLine(\"Hello World!\");",
+            "           // Do Something Here!",
+            "           ",
+            "       }",
+            "   }",
+            "}",
+        ],
+        "description": "A new CS Class"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "snippets-plus",
+    "displayName": "Snippets+",
+    "description": "A VSCode extention to help with coding!",
+    "version": "0.0.3",
+    "publisher": "GavinGoGaming",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/JSSnippets.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/HTMLSnippets.code-snippets"
+            },
+            {
+                "language": "csharp",
+                "path": "./snippets/CSSnippets.code-snippets"
+            }
+        ]
+    }
+}
