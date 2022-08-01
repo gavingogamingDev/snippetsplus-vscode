@@ -25,6 +25,10 @@ Very cool snippets that help out a ton with coding Discord Bots, C# Programs, HT
 
 ###### html.navbardoc | Generates a new HTML File with a basic navbar.
 
+### Java
+
+##### java.class | Generates a new Java Class.
+
 ## Known Issues
 
 #### 1.
